@@ -44,7 +44,8 @@ body {
   }
   
   button {
-    margin-top: 30px;
+    margin-top: 400px;
+    margin-left: -420px ;
     border: none;
     background-color: #1E95EA;
     color: white;
@@ -87,4 +88,17 @@ body {
   }
   .outOfStock{
     text-decoration: line-through 
+  }
+  .tab {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .activeTab {
+    color: #16C0B0;
+    text-decoration: underline;
+  }
+  .tabview{
+    margin-top: 600px;
+    margin-left: -750px;
   }
